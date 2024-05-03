@@ -2,7 +2,6 @@ import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 import { getProducts } from "../actions/product.action";
 
 
-
 const INIT_STATE = {
     product: [],
     oneProduct: null,
@@ -32,3 +31,5 @@ export const productSlice = createSlice({
             })
     },
 });
+
+    

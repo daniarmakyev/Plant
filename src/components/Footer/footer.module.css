@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 258px;
+  background-color: rgb(51, 52, 52);
+  color: #fff;
+  padding: 20px;
+}
+
+.leftContent {
+  flex: 1;
+}
+
+.leftContent span {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(217, 217, 217); 
+}
+
+.leftWords {
+  display: flex;
+  justify-content: space-around;
+  width: 681px;
+  height: 43px;
+  margin-right: 10px;
+  margin-bottom: 65px;
+    color: rgb(217, 217, 217);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.logo {
+  color: rgb(245, 245, 245);
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+.intBut {
+ margin-right: 40px;
+}
+
+.rightContent button {
+  margin-left: 10px;
+  width: 256px;
+  height: 50px;
+  color: black;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.rightContent input {
+  border: 1px solid #fff;
+  width: 309px;
+  height: 50px;
+  left: 850px;
+  font-size: 17px;
+  font-weight: 500px;
+  color: rgb(159, 161, 168);
+}
+
+.nets {
+    display: flex;
+    justify-content: space-between;
+    width: 278px;
+    height: 65px;
+    margin-top: -50px;
+    margin-bottom: 65px;
+    margin-left: 320px;
+}
