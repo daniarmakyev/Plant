@@ -9,7 +9,6 @@ export const router = createBrowserRouter([
     element: <MainLayout />,
     children: [
       { path: "/", element: <Home /> },
-      { path: "/footer", element: <Footer /> },
     ],
   },
 ]);
