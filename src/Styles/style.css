@@ -1,15 +1,14 @@
 @import "./null.css";
 
 body {
-    background-color: #fff;
+  background-color: #fff;
   user-select: none;
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-    font-size: 14px;
+  font-variation-settings: "slnt" 0;
+  font-size: 14px;
 }
 
 *,
@@ -19,18 +18,17 @@ body {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    margin: 0;
+
 }
 
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.container  {
-    max-width: 1320px !important;
-    padding: 0 10px;
-    margin: 0 auto;
+.container {
+  max-width: 1320px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
-

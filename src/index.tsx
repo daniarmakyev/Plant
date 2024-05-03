@@ -7,13 +7,12 @@ import { store } from './store/store';
 import { RouterProvider } from 'react-router-dom';
 import { router } from './Routes/Routes';
 
+
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 root.render(
-    <Provider store={store}>
-      <RouterProvider router={router}/>
-    </Provider>
+  <Provider store={store}>
+    <RouterProvider router={router} />
+  </Provider>
 );
-
-
