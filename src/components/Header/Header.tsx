@@ -5,36 +5,38 @@ import styles from "./header.module.css";
 const Header = () => {
   return (
     <div className="container">
-      <NavLink to={"/"} className={styles.plant}>
+        <div className={styles.headerInner}>
+        <NavLink to={"/"} className={styles.plant}>
         plant
       </NavLink>
+        <div className={styles.nav}>
 
-      <NavLink to={"/"} className={styles.catalog}>
+      <NavLink to={"/"}>
         Каталог
       </NavLink>
 
-      <NavLink to={"/"} className={styles.sovety}>
+      <NavLink to={"/"}>
         Советы по уходу
       </NavLink>
 
-      <NavLink to={"/"} className={styles.oplata}>
+      <NavLink to={"/"}>
         Оплата и доставка
       </NavLink>
 
-      <NavLink to={"/"} className={styles.contact}>
+      <NavLink to={"/"}>
         Контакты
       </NavLink>
-
-      <Link to={"/"} className={styles.search}>
+        </div>
+        <div className={styles.svg}>
+            
+      <Link to={"/"}>
         <svg
           width="27.000000"
           height="27.000000"
           viewBox="0 0 27 27"
           fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          // xmlnslink="http://www.w3.org/1999/xlink"
+          xmlnsXlink="http://www.w3.org/2000/svg"
         >
-          <desc>Created with Pixso.</desc>
           <defs />
           <path
             id="Поиск на сайте"
@@ -46,16 +48,14 @@ const Header = () => {
         </svg>
       </Link>
 
-      <Link to={"/"} className={styles.vector}>
+      <Link to={"/"}>
         <svg
           width="27.000000"
           height="27.000000"
           viewBox="0 0 27 27"
           fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          // xmlnslink="http://www.w3.org/1999/xlink"
+          xmlnsXlink="http://www.w3.org/2000/svg"
         >
-          <desc>Created with Pixso.</desc>
           <defs />
           <path
             id="Vector"
@@ -67,16 +67,14 @@ const Header = () => {
         </svg>
       </Link>
 
-      <Link to={"/"} className={styles.corzina}>
+      <Link to={"/"}>
         <svg
           width="26.000000"
           height="26.000000"
           viewBox="0 0 26 26"
           fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          // xmlnslink="http://www.w3.org/1999/xlink"
+          xmlnsXlink="http://www.w3.org/2000/svg"
         >
-          <desc>Created with Pixso.</desc>
           <defs />
           <path
             id="Корзина"
@@ -87,6 +85,8 @@ const Header = () => {
           />
         </svg>
       </Link>
+        </div>
+      </div>
     </div>
   );
 };
