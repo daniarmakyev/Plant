@@ -1,8 +1,9 @@
 .container {
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1440px;
+  max-width: 1525px;
   height: 258px;
   background-color: rgb(51, 52, 52);
   color: #fff;
@@ -16,7 +17,7 @@
 .leftContent span {
   font-weight: 400;
   font-size: 20px;
-  color: rgb(217, 217, 217); 
+  color: rgb(217, 217, 217);
 }
 
 .leftWords {
@@ -26,7 +27,7 @@
   height: 43px;
   margin-right: 10px;
   margin-bottom: 65px;
-    color: rgb(217, 217, 217);
+  color: rgb(217, 217, 217);
   font-weight: 400;
   font-size: 20px;
 }
@@ -39,7 +40,7 @@
 }
 
 .intBut {
- margin-right: 40px;
+  margin-right: 40px;
 }
 
 .rightContent button {
@@ -63,11 +64,11 @@
 }
 
 .nets {
-    display: flex;
-    justify-content: space-between;
-    width: 278px;
-    height: 65px;
-    margin-top: -50px;
-    margin-bottom: 65px;
-    margin-left: 320px;
+  display: flex;
+  justify-content: space-between;
+  width: 278px;
+  height: 65px;
+  margin-top: -50px;
+  margin-bottom: 65px;
+  margin-left: 320px;
 }
