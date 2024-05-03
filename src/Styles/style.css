@@ -3,7 +3,7 @@
 body {
   background-color: #fff;
   user-select: none;
-  font-family: "Inter", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -14,11 +14,11 @@ body {
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
 }
 
 .clearfix::after {
@@ -28,15 +28,7 @@ body {
 }
 
 .container {
-  max-width: 1320px !important;
+  max-width: 1320px;
   padding: 0 10px;
   margin: 0 auto;
-  /* header */
-  position: absolute;
-  width: 1307.3px;
-  height: 53px;
-  left: 60px;
-  right: 72.7px;
-  top: 36px;
-  bottom: 2890px;
 }
