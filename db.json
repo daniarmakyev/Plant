@@ -4,8 +4,107 @@
       "id": 1,
       "title": "template",
       "price": "100",
-      "image":"image"
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
+    },
+    {
+      "id": 2,
+      "title": "template",
+      "price": "100",
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
+    },
+    {
+      "id": 3,
+      "title": "template",
+      "price": "100",
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
+    },
+    {
+      "id": 4,
+      "title": "template",
+      "price": "100",
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
+    },
+    {
+      "id": 5,
+      "title": "template",
+      "price": "100",
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
+    },
+    {
+      "id": 6,
+      "title": "template",
+      "price": "100",
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
+    },
+    {
+      "id": 7,
+      "title": "template",
+      "price": "100",
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
+    },
+    {
+      "id": 8,
+      "title": "template",
+      "price": "100",
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
+    },
+    {
+      "id": 9,
+      "title": "template",
+      "price": "100",
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
+    },
+    {
+      "id": 10,
+      "title": "template",
+      "price": "100",
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
+    },
+    {
+      "id": 11,
+      "title": "template",
+      "price": "100",
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
+    },
+    {
+      "id": 12,
+      "title": "template",
+      "price": "100",
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
+    },
+    {
+      "id": 13,
+      "title": "template",
+      "price": "100",
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
+    },
+    {
+      "id": 14,
+      "title": "template",
+      "price": "100",
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
+    },
+    {
+      "id": 15,
+      "title": "template",
+      "price": "100",
+      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
+      "category": "ficus"
     }
   ]
-
 }
+
