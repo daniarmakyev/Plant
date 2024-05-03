@@ -1,5 +1,7 @@
 .headerInner {
     display: flex;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 .nav {
     display: flex;
@@ -20,9 +22,11 @@
     margin-right: 180px;
   }
 
-.svg {
+.svgBlock {
     gap: 60px;
     display: flex;
     margin-left: 90px;
     padding-top: 20px;
 }
+
+

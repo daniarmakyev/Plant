@@ -1,8 +1,8 @@
-import React from "react";
+import React, { FC } from "react";
 import { Link, NavLink, useSearchParams } from "react-router-dom";
 import styles from "./header.module.css";
 
-const Header = () => {
+const Header:FC = () => {
   return (
     <div className="container">
         <div className={styles.headerInner}>
@@ -27,7 +27,7 @@ const Header = () => {
         Контакты
       </NavLink>
         </div>
-        <div className={styles.svg}>
+        <div className={styles.svgBlock}>
             
       <Link to={"/"}>
         <svg
