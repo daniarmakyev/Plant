@@ -1,0 +1,85 @@
+/* .container {
+  /* header
+  position: absolute;
+  width: 1307.3px;
+  height: 53px;
+  left: 60px;
+  right: 72.7px;
+  top: 36px;
+  bottom: 2890px;
+} */
+
+.plant {
+  /* Название магазина */
+
+  color: rgb(21, 91, 10);
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.catalog {
+  /* Каталог */
+  margin-left: 205px;
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.sovety {
+  /* Советы по уходу */
+  margin-left: 45px;
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.oplata {
+  /* Оплата и доставка */
+  margin-left: 45px;
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.contact {
+  /* Контакты */
+  margin-left: 45px;
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.search {
+  /* Поиск на сайте */
+  margin-left: 100px;
+}
+
+.vector {
+  /* Личный кабинет */
+  margin-left: 65px;
+}
+
+.corzina {
+  /* Корзина */
+  margin-left: 65px;
+}
