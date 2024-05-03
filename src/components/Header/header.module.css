@@ -11,16 +11,6 @@
 
 .plant {
   /* Название магазина */
-  position: absolute;
-  width: 139px;
-  height: 53px;
-  left: 60px;
-  right: 1241px;
-  top: 44px;
-  bottom: 1252px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 
   color: rgb(21, 91, 10);
   font-family: Raleway;
@@ -33,17 +23,7 @@
 
 .catalog {
   /* Каталог */
-  position: absolute;
-  width: 119px;
-  height: 70px;
-  left: 379px;
-  right: 183px;
-  top: 37px;
-  bottom: -37px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
+  margin-left: 205px;
   color: rgb(0, 0, 0);
   font-family: Raleway;
   font-size: 20px;
@@ -55,17 +35,7 @@
 
 .sovety {
   /* Советы по уходу */
-  position: absolute;
-  width: 177px;
-  height: 70px;
-  left: 498px;
-  right: 6px;
-  top: 37px;
-  bottom: -37px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
+  margin-left: 45px;
   color: rgb(0, 0, 0);
   font-family: Raleway;
   font-size: 20px;
@@ -77,17 +47,7 @@
 
 .oplata {
   /* Оплата и доставка */
-  position: absolute;
-  width: 208px;
-  height: 70px;
-  left: 709px;
-  right: -236px;
-  top: 37px;
-  bottom: -37px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
+  margin-left: 45px;
   color: rgb(0, 0, 0);
   font-family: Raleway;
   font-size: 20px;
@@ -99,17 +59,7 @@
 
 .contact {
   /* Контакты */
-  position: absolute;
-  width: 125px;
-  height: 70px;
-  left: 935px;
-  right: -379px;
-  top: 37px;
-  bottom: -37px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
+  margin-left: 45px;
   color: rgb(0, 0, 0);
   font-family: Raleway;
   font-size: 20px;
@@ -121,34 +71,15 @@
 
 .search {
   /* Поиск на сайте */
-  position: absolute;
-  width: 27px;
-  height: 27px;
-  left: 1129px;
-  right: 151.3px;
-  top: 45px;
-  bottom: -19px;
+  margin-left: 100px;
 }
 
 .vector {
   /* Личный кабинет */
-  position: absolute;
-  width: 27px;
-  height: 26.74px;
-  left: 1234px;
-  right: 46.3px;
-  top: 45px;
-  bottom: -18.74px;
+  margin-left: 65px;
 }
 
 .corzina {
   /* Корзина */
-  position: absolute;
-  width: 27px;
-  height: 27px;
-  left: 1340.31px;
-  right: -60px;
-  top: 45px;
-  bottom: -19px;
-  transform: rotate(1.02deg);
+  margin-left: 65px;
 }
