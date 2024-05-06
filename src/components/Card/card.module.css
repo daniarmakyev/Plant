@@ -1,9 +1,38 @@
 .card {
     width: 300px;
     height: 501px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
 }
 
 .card img {
-    max-height: 400px;
+    height: 400px;
     width: 300px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+.price {
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.Edit {
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}
+
+.delete {
+    position: absolute;
+    bottom: 0;
 }
