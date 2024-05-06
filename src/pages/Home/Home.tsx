@@ -3,9 +3,12 @@ import styles from "./home.module.css";
 import { Link } from 'react-router-dom';
 import Card from '../../components/Card/Card';
 import { useAppDispatch, useAppSelector } from '../../Consts/Consts';
-import { getProducts } from '../../store/actions/product.action';
+import { APIPRODUCT, addProduct, getProducts } from '../../store/actions/product.action';
+import { ProductType } from '../../Types/Types';
 
 const Home = () => {
+
+  
 
     const dispatch = useAppDispatch();
     const { products } = useAppSelector((state) => state.products);
@@ -13,13 +16,18 @@ const Home = () => {
       dispatch(getProducts());
     }, []);
 
+    const slicedProduct = products.slice(0,6)
+
+    
+
+    
   return (
     <div className="container">
 
       <div className={styles.homeTop}>
         <h2>Цветы для вашего дома</h2>
         <p>Растения в кашпо станут красивым и модным дополнением интерьера вашей квартиры или офиса</p>
-        <Link to={'/'}>ПЕРЕЙТИ В КАТАЛОГ</Link>
+        <Link to={'/catalog'}>ПЕРЕЙТИ В КАТАЛОГ</Link>
       </div>
 
       <div className={styles.homeMiddle}>
@@ -43,7 +51,7 @@ const Home = () => {
       <div className={styles.homeBottom}>
       <h2>Предложения месяца</h2>
             <div className={styles.cards}>
-            {products && products.map((item, index) => (
+            {slicedProduct && slicedProduct.map((item, index) => (
         <Card key={index} card={item} />
       ))}
             </div>

@@ -2,109 +2,164 @@
   "products": [
     {
       "id": 1,
-      "title": "template",
-      "price": "100",
+      "title": "Стрелиция",
+      "price": "2300",
       "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "category": "Фикусы"
     },
     {
       "id": 2,
-      "title": "template",
-      "price": "100",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "title": "Пальма",
+      "price": "3000",
+      "image": "https://gardengrove.ru/upload/resize_cache/iblock/24a/376_376_1/areka_khrizalidokarpus_dipsis_zheltovatyy_4chlubu83.jpg",
+      "category": "Пальмы"
     },
     {
       "id": 3,
-      "title": "template",
-      "price": "100",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "title": "Агава",
+      "price": "2990",
+      "image": "https://flowers.ua/images/Flowers/articles/253-img-1.jpg",
+      "category": "Суккуленты"
     },
     {
       "id": 4,
-      "title": "template",
-      "price": "100",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "title": "Антуриум",
+      "price": "1500",
+      "image": "https://botaniccraft.ru/wp-content/uploads/2022/12/20221123-BCC_2539-kopiya1.jpg",
+      "category": "Фикусы"
     },
     {
       "id": 5,
-      "title": "template",
-      "price": "100",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "title": "Пальма Кентия",
+      "price": "2700",
+      "image": "https://imgix.be.green/638612ecabba7058535459.jpg",
+      "category": "Пальмы"
     },
     {
       "id": 6,
-      "title": "template",
-      "price": "100",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "title": "Сансевьерия",
+      "price": "2000",
+      "image": "https://растения77.рф/wp-content/uploads/2022/10/20230226_125633-scaled.jpg",
+      "category": "Суккуленты"
     },
     {
       "id": 7,
-      "title": "template",
-      "price": "100",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "title": "Хамедорея",
+      "price": "3200",
+      "image": "https://cdn.botanichka.ru/wp-content/uploads/2020/12/hamedoreya-luchshaya-palma-dlya-razmeshheniya-vnutri-komnat-01.jpg",
+      "category": "Фикусы"
     },
     {
       "id": 8,
-      "title": "template",
-      "price": "100",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "title": "Кокосовая Пальма",
+      "price": "4000",
+      "image": "https://geoglass.ru/wp-content/uploads/2021/08/rastenie-kokos-kopiya.jpg",
+      "category": "Пальмы"
     },
     {
       "id": 9,
-      "title": "template",
-      "price": "100",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "title": "Суккулент Эхеверия",
+      "price": "1800",
+      "image": "https://shop-cdn1-2.vigbo.tech/shops/117386/products/21173473/images/3-f69f959ffd3152e56f0566b7a3d510ba.JPEG",
+      "category": "Суккуленты"
     },
     {
       "id": 10,
-      "title": "template",
-      "price": "100",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "title": "Аглаонема",
+      "price": "2100",
+      "image": "https://greenisland.ru/upload/iblock/e8b/e8ba16f6479f891cb93f9158065a56be.jpg",
+      "category": "Фикусы"
     },
     {
       "id": 11,
-      "title": "template",
-      "price": "100",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "title": "Пальма Вашингтона",
+      "price": "3500",
+      "image": "https://wikibotanika.ru/wp-content/uploads/2014/08/washingtonia-filifera.jpg",
+      "category": "Пальмы"
     },
     {
       "id": 12,
-      "title": "template",
-      "price": "100",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "title": "Суккулент Алоэ",
+      "price": "2200",
+      "image": "https://florina.kh.ua/image/cache/catalog/kategorii/komnatnye-rasteniya/dekorativno-listvennye-rasteniya/sukkulent-aloe-1-1000x1000.jpg",
+      "category": "Суккуленты"
     },
     {
       "id": 13,
-      "title": "template",
-      "price": "100",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "title": "Фикус Эластик",
+      "price": "2400",
+      "image": "https://rastenievod.com/wp-content/uploads/2016/08/4-44-700x700.jpg",
+      "category": "Фикусы"
     },
     {
       "id": 14,
-      "title": "template",
-      "price": "100",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "title": "Датское Пальмовое Дерево",
+      "price": "3800",
+      "image": "https://avatars.dzeninfra.ru/get-zen_doc/5284703/pub_63e3e0bd71083879c1c7673c_63e3e10a99c5fb764a995e4a/scale_1200",
+      "category": "Пальмы"
     },
     {
       "id": 15,
-      "title": "template",
-      "price": "100",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "ficus"
+      "title": "Суккулент Гавортия",
+      "price": "2300",
+      "image": "https://polygon.garden/image/cache/catalog/Plants/succulent-haworthia-fasciata-concolor-01-900x900.jpg",
+      "category": "Суккуленты"
+    },
+    {
+      "id": 16,
+      "title": "Фикус Робуста",
+      "price": "2600",
+      "image": "https://green-7.ru/upload/medialibrary/849/1633359814_31-p-fikus-kakoi-luchshe-dlya-doma-foto-34.jpg",
+      "category": "Фикусы"
+    },
+    {
+      "id": 17,
+      "title": "Пальма Ливистона",
+      "price": "3600",
+      "image": "https://rastenievod.com/wp-content/uploads/2016/09/1-72-700x708.jpg",
+      "category": "Пальмы"
+    },
+    {
+      "id": 18,
+      "title": "Суккулент Каланхоэ",
+      "price": "2100",
+      "image": "https://sukkulenty24.ru/images/kalanhoe/orikula.jpg",
+      "category": "Суккуленты"
+    },
+    {
+      "id": 19,
+      "title": "Фикус Бенджамина",
+      "price": "2800",
+      "image": "https://www.alseedservice.ru/image/cache/123422_1603k23mfikusbendzhaminah160smlateks_8_sl012661-449x449.jpg",
+      "category": "Фикусы"
+    },
+    {
+      "id": 20,
+      "title": "Пальма Финикова",
+      "price": "3200",
+      "image": "https://nashsad.kg/wp-content/uploads/2020/06/9059e845475192a1fe853fcaeb65.jpg",
+      "category": "Пальмы"
+    },
+    {
+      "id": 21,
+      "title": "Драцена",
+      "price": "2500",
+      "image": "https://geoglass.ru/wp-content/uploads/2021/03/florarium-dratsena.jpg",
+      "category": "Фикусы"
+    },
+    {
+      "title": "Хамерос",
+      "price": "52000",
+      "image": "https://leplants.ru/static/cache/c3/10/c310eb71be18b1f4a3195b84337211dd.jpg",
+      "category": "Пальмы",
+      "id": 22
+    },
+    {
+      "title": "Пальма",
+      "price": "3000",
+      "image": "https://artplants.ru/upload/123/8.jpg",
+      "category": "Пальмы",
+      "id": 23
     }
   ]
 }
-
