@@ -1,32 +1,30 @@
 .headerInner {
-    display: flex;
-    padding-top: 20px;
-    padding-bottom: 40px;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 .nav {
-    display: flex;
-    padding-top: 20px;
-    gap: 25px;
+  display: flex;
+  padding-top: 20px;
+  gap: 25px;
 }
 .nav a {
-    color: #000;
-    font-size: 20px;
-    line-height: 23px;
+  color: #000;
+  font-size: 20px;
+  line-height: 23px;
 }
 
 .plant {
-    color: rgb(21, 91, 10);
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 47px;
-    margin-right: 180px;
-  }
-
-.svgBlock {
-    gap: 60px;
-    display: flex;
-    margin-left: 90px;
-    padding-top: 20px;
+  color: rgb(21, 91, 10);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 47px;
+  margin-right: 180px;
 }
 
-
+.svgBlock {
+  gap: 60px;
+  display: flex;
+  margin-left: 90px;
+  padding-top: 20px;
+}
