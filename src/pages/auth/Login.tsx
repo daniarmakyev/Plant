@@ -25,7 +25,7 @@ const Login: FC = () => {
     e.preventDefault();
     for (let key in user) {
       if (!user[key]) {
-        alert("Пустые поляяя!");
+        alert("Заполните все поля!");
         return;
       }
     }
@@ -34,12 +34,12 @@ const Login: FC = () => {
 
     console.log(foundUser);
     if (!foundUser) {
-      alert("No user!");
+      alert("Такого пользователя нету!");
       return;
     }
 
     if (foundUser.password !== user.password) {
-      alert("Вранье,чык эшике!");
+      alert("Пароль введет не вверно!");
       return;
     }
 
@@ -50,6 +50,7 @@ const Login: FC = () => {
       password: "",
     });
     navigate("/");
+    window.location.reload()
   }
 
   function handleChange(e: ChangeEvent<HTMLInputElement>) {
@@ -71,7 +72,7 @@ const Login: FC = () => {
             />
           </div>
         ))}
-        <button>Sign in</button>
+        <button>Войти</button>
       </form>
     </div>
   );

@@ -7,6 +7,7 @@ import Catalog from "../pages/Catalog/Catalog";
 import AddProductPage from "../pages/AddProduct/AddProductPage";
 import EditProduct from "../pages/EditProduct/EditProduct";
 import Login from "../pages/auth/Login";
+import Profile from "../pages/Profile/Profile";
 
 export const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ export const router = createBrowserRouter([
       { path: "/catalog", element: <Catalog /> },
       { path: "/addProduct", element: <AddProductPage /> },
       { path: "/editPage/:id", element: <EditProduct /> },
+      { path: "/profile", element: <Profile /> },
     ],
   },
 ]);

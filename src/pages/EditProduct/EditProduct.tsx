@@ -37,6 +37,7 @@ const EditProduct = () => {
         e.preventDefault();
         dispatch(editProduct({ id, newObj: productInputs }));
         navigate("/catalog");
+        window.location.reload()
     }
     
     return (

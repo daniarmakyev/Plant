@@ -2,6 +2,11 @@ import React, { FC } from "react";
 import { Link, NavLink, useSearchParams } from "react-router-dom";
 import styles from "./header.module.css";
 
+const idd = localStorage.getItem('currentUser')
+ function exit(){
+  return localStorage.removeItem('currentUser')
+ }
+
 const Header: FC = () => {
   return (
     <div className="container">
@@ -38,7 +43,9 @@ const Header: FC = () => {
             </svg>
           </Link>
 
-          <Link to={"/register"}>
+          {idd ? <Link to={'/profile'}><svg width="32px" height="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 19.2857L15.8 21L20 17M4 21C4 17.134 7.13401 14 11 14C12.4872 14 13.8662 14.4638 15 15.2547M15 7C15 9.20914 13.2091 11 11 11C8.79086 11 7 9.20914 7 7C7 4.79086 8.79086 3 11 3C13.2091 3 15 4.79086 15 7Z" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          </svg></Link> : <Link to={"/register"}>
             <svg
               width="27.000000"
               height="27.000000"
@@ -55,7 +62,7 @@ const Header: FC = () => {
                 fillRule="nonzero"
               />
             </svg>
-          </Link>
+          </Link>}
 
           <Link to={"/login"}>
             <svg
@@ -75,6 +82,20 @@ const Header: FC = () => {
               />
             </svg>
           </Link>
+            {
+              idd ? <button onClick={()=>{exit(); window.location.reload()}}><svg width="32px" height="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clipPath="url(#clip0_429_11067)">
+                <path d="M15 4.00098H5V18.001C5 19.1055 5.89543 20.001 7 20.001H15" stroke="#292929" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M16 15.001L19 12.001M19 12.001L16 9.00098M19 12.001H9" stroke="#292929" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              </g>
+              <defs>
+                <clipPath id="clip0_429_11067">
+                  <rect width="24" height="24" fill="white" transform="translate(0 0.000976562)" />
+                </clipPath>
+              </defs>
+            </svg></button>: ''
+            }
+          <span className={styles.userId}>{idd}</span>
         </div>
       </div>
     </div>

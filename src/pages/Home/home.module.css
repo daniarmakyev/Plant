@@ -69,6 +69,22 @@
 .homeBottom {
   margin-top: 80px;
   margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goTo {
+  font-weight: 500;
+  line-height: 19px;
+  max-width: 214px;
+  max-height: 50px;
+  padding: 15px;
+  background-color: rgb(51, 52, 52);
+  color: #fff;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 40px;
 }
 
 .homeBottom h2 {
