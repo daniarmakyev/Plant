@@ -161,5 +161,39 @@
       "category": "Пальмы",
       "id": 23
     }
+  ],
+  "users": [
+    {
+      "name": "beka",
+      "phone": "+996 705 190 750",
+      "email": "beka@gmail.com",
+      "password": "12345678",
+      "password_confirm": "12345678",
+      "id": 4
+    },
+    {
+      "name": "alisherov",
+      "phone": "0303032",
+      "email": "makers.frontend@gmail.com",
+      "password": "qwertyuio",
+      "password_confirm": "qwertyuio",
+      "id": 7
+    },
+    {
+      "name": "sdcsdc",
+      "phone": "dscsdcsd",
+      "email": "sdcsdcs",
+      "password": "sdcsdcs",
+      "password_confirm": "sdcsdcs",
+      "id": 8
+    },
+    {
+      "name": "ewdwedw123456789",
+      "phone": "wdwed",
+      "email": "wdwedwedwed",
+      "password": "qwertyuio",
+      "password_confirm": "qwertyuio",
+      "id": 9
+    }
   ]
 }

@@ -1,10 +1,10 @@
-import React from 'react';
-import MainLayout from './MainLayout/Layouts';
+import React from "react";
+import MainLayout from "./MainLayout/Layouts";
 
 function App() {
   return (
     <div className="App">
-      <MainLayout/>
+      <MainLayout />
     </div>
   );
 }

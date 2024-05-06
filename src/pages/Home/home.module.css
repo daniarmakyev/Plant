@@ -1,86 +1,86 @@
 /*--------------------------home top----------------------- */
 
 .homeTop {
-    background-image: url(../../img/homeMain.png);
-    background-repeat: no-repeat;
-    height: 630px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 25px;
+  background-image: url(../../img/homeMain.png);
+  background-repeat: no-repeat;
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
 }
 
-.homeTop h2{
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 47px;
-    text-align: right;
-    margin-right: 150px;
-    padding-top: 70px;
+.homeTop h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  text-align: right;
+  margin-right: 150px;
+  padding-top: 70px;
 }
 
 .homeTop p {
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 29px;  
-    max-width: 477px;
-    text-align: right;
-    margin-left: auto;
-    margin-right: 150px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29px;
+  max-width: 477px;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 150px;
 }
 
 .homeTop a {
-    font-weight: 500;
-    line-height: 19px;
-    max-width: 214px;
-    max-height: 50px;
-    padding: 15px;
-    background: rgb(51, 52, 52);
-    color: #fff;
-    margin-left: auto;
-    display: inline-block;
-    margin-right: 150px;
-    border-radius: 10px;
+  font-weight: 500;
+  line-height: 19px;
+  max-width: 214px;
+  max-height: 50px;
+  padding: 15px;
+  background: rgb(51, 52, 52);
+  color: #fff;
+  margin-left: auto;
+  display: inline-block;
+  margin-right: 150px;
+  border-radius: 10px;
 }
 
 /*--------------------------home middle----------------------- */
 
 .homeMiddle {
-    display: flex;
-    gap: 50px;
-    margin-top: 50px;
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
 }
 
 .homeMiddle div h4 {
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 29px;
-    margin-top: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-top: 15px;
 }
 
 .homeMiddle div p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
-    margin-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 15px;
 }
 
 /*--------------------------home bottom----------------------- */
 
 .homeBottom {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .homeBottom h2 {
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 41px;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41px;
 }
 
 .cards {
-    margin-top: 45px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    
-    justify-content: space-evenly;
+  margin-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  justify-content: space-evenly;
 }
