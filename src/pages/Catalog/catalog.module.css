@@ -16,6 +16,7 @@
     max-width: 1320px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 120px;
 }
 .catalogList {
     display: flex;

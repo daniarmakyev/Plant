@@ -5,6 +5,7 @@ import { useAppDispatch, useAppSelector } from "../../Consts/Consts";
 import { getUsers, getCurrentUser } from "../../store/actions/User.action";
 import { useNavigate } from "react-router-dom";
 import React from "react";
+import styles from "./auth.module.css"
 
 const Login: FC = () => {
   const [user, setUser] = useState<LoginType>({
@@ -57,7 +58,7 @@ const Login: FC = () => {
   }
   return (
     <div>
-      <form onSubmit={handleSubmit} className="forma">
+      <form onSubmit={handleSubmit} className={styles.forma}>
         <h1>Login form</h1>
         {Object.keys(user).map((item, index) => (
           <div key={index}>
