@@ -37,3 +37,15 @@ export const getOneUser = createAsyncThunk(
     }
   }
 );
+
+export const getCurrentUser = createAsyncThunk(
+  "users/getCurrentUser",
+  async (id: string | number) => {
+    try {
+      const { data } = await axios.get(`${API}/${id}`);
+      return data;
+    } catch (error) {
+      console.log(error);
+    }
+  }
+);
