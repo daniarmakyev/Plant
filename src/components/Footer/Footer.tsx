@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
   return (
+    <div className={styles.footerOut}>
     <footer className={styles.container}>
+
+
       <div className={styles.leftContent}>
         <div className={styles.leftWords}>
           <Link to="/catalog">Каталог</Link>
@@ -12,8 +15,10 @@ const Footer: React.FC = () => {
           <Link to="/payment-delivery">Оплата и доставка</Link>
           <Link to="/contacts">Контакты</Link>
         </div>
-        <div className={styles.logo}>plant</div>
-        <span>© 2023 магазин цветов и растений PLANT</span>
+          <div className={styles.logo}>
+            <h3>plant</h3>
+          <span>© 2023 магазин цветов и растений PLANT</span>
+          </div>
       </div>
 
       <div className={styles.rightContent}>
@@ -138,7 +143,9 @@ const Footer: React.FC = () => {
           <button>Подписаться</button>
         </div>
       </div>
+
     </footer>
+    </div>
   );
 };
 

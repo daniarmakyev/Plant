@@ -1,17 +1,23 @@
 .container {
-  margin: 0 auto;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: #fff;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  max-width: 1525px;
-  height: 258px;
+}
+
+.footerOut {
+  width: 100%;
   background-color: rgb(51, 52, 52);
-  color: #fff;
-  padding: 20px;
 }
 
 .leftContent {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 70px;
 }
 
 .leftContent span {
@@ -21,54 +27,50 @@
 }
 
 .leftWords {
-  display: flex;
-  justify-content: space-around;
-  width: 681px;
-  height: 43px;
-  margin-right: 10px;
-  margin-bottom: 65px;
   color: rgb(217, 217, 217);
   font-weight: 400;
   font-size: 20px;
+  display: inline-flex;
+  gap: 30px;
+  margin-top: 20px;
+
 }
 
-.logo {
+.logo h3 {
   color: rgb(245, 245, 245);
   font-weight: 900;
   font-size: 40px;
-  margin-bottom: 8px;
+}
+
+.rightContent {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  row-gap: 70px;
 }
 
 .intBut {
-  margin-right: 40px;
+  display: flex;
+  gap: 5px;
 }
 
 .rightContent button {
-  margin-left: 10px;
-  width: 256px;
-  height: 50px;
   color: black;
   background-color: #fff;
   font-weight: 500;
   font-size: 20px;
+  width: 236px;
+  height: 50px;
 }
 
 .rightContent input {
   border: 1px solid #fff;
   width: 309px;
   height: 50px;
-  left: 850px;
-  font-size: 17px;
-  font-weight: 500px;
   color: rgb(159, 161, 168);
 }
 
 .nets {
   display: flex;
-  justify-content: space-between;
-  width: 278px;
-  height: 65px;
-  margin-top: -50px;
-  margin-bottom: 65px;
-  margin-left: 320px;
+  gap: 60px;
 }
