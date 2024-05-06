@@ -80,7 +80,7 @@ const Register: FC = () => {
         </div>
       ))}
       <button>Зарегестрироваться</button>
-      <Link to={'/login'}>Уже есть аккаунт?</Link>
+      <Link  to={'/login'}>Уже есть аккаунт?</Link>
     </form>
   );
 };

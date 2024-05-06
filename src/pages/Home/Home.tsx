@@ -55,6 +55,7 @@ const Home = () => {
         <Card key={index} card={item} />
       ))}
             </div>
+            <Link className={styles.goTo} to={'/catalog'}>ПЕРЕЙТИ В КАТАЛОГ</Link>
       </div>
     </div>
   );
