@@ -6,6 +6,7 @@ export interface CardData {
   [key: string]: string | number | undefined;
 }
 
+
 export interface ProductType {
   image: string;
   title: string;
@@ -30,3 +31,12 @@ export type LoginType = {
   password: string;
   [key: string]: string;
 };
+
+  export interface ProductType {
+    image: string;
+    title: string;
+    price:string;
+    category:string;
+    [key: string]: string | number | undefined;
+  }
+
