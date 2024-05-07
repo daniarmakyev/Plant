@@ -171,14 +171,6 @@
       "email": "daniarmakyev10@gmail.com",
       "password": "12345678",
       "password_confirm": "12345678",
-      "id": 10
-    },
-    {
-      "name": "DaniarMakyev",
-      "phone": "0550650222",
-      "email": "daniarmakyev10@gmail.com",
-      "password": "12345678",
-      "password_confirm": "12345678",
       "cart": [
         {
           "id": 3,

@@ -31,7 +31,7 @@ const Card: FC<{ card: ProductType }> = ({ card }) => {
     setOneProduct(oneProductt);
     console.log(oneProduct);
     
-    if (oneProduct !== null && idd) {
+    if (oneProduct !== null && idd && oneUser !== undefined) {
       const filteredCart = (oneUser!.cart as ProductType[]).filter(product => product !== null);
       const updatedUser = { ...oneUser!, cart: [...filteredCart, oneProductt!] };
       dispatch(addCart({ id: idd!.toString(), user: updatedUser }));
