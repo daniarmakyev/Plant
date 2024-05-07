@@ -64,7 +64,7 @@ const Header: FC = () => {
             </svg>
           </Link>}
 
-          <Link to={"/login"}>
+          <Link to={"/cart"}>
             <svg
               width="26.000000"
               height="26.000000"

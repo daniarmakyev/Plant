@@ -31,6 +31,14 @@ const Profile = () => {
 
   const profileImage =
     "https://kartinki.pics/pics/uploads/posts/2022-09/thumbs/1662405638_3-kartinkin-net-p-ikonka-cheloveka-minimalizm-vkontakte-3.jpg";
+=======
+        dispatch(getOneUser(Number(idLokal))).then((data)=>{
+            res = data.payload
+            console.log(res);       
+        })
+
+    }, []);
+    
 
   return (
     <div className={styles.profileContainer}>

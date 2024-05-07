@@ -36,3 +36,10 @@
     position: absolute;
     bottom: 0;
 }
+
+.addCart {
+    position: absolute;
+    bottom: 45px;
+    right: 10px;
+    font-size: 16px;
+}

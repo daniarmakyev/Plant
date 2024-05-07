@@ -52,8 +52,8 @@ const Home = () => {
       <h2>Предложения месяца</h2>
             <div className={styles.cards}>
             {slicedProduct && slicedProduct.map((item, index) => (
-        <Card key={index} card={item} />
-      ))}
+  <Card key={index} card={item} />
+))}
             </div>
             <Link className={styles.goTo} to={'/catalog'}>ПЕРЕЙТИ В КАТАЛОГ</Link>
       </div>

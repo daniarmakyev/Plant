@@ -51,6 +51,7 @@ export const getCurrentUser = createAsyncThunk(
   }
 );
 
+
 export const updateUser = createAsyncThunk(
   "users/updateUser",
   async ({ id, newData }: { id: string | number; newData: UserType }) => {
@@ -63,3 +64,15 @@ export const updateUser = createAsyncThunk(
     }
   }
 );
+
+export const addCart = createAsyncThunk(
+  "users/addCart",
+  async ({ id, user }: { id: string | undefined; user: UserType }) => {
+    try {
+      await axios.patch(`${API}/${id}`, user);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+);
+

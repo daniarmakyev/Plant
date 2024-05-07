@@ -1,7 +1,7 @@
 import React, { FC, useEffect, useState, useRef } from 'react';
 import styles from "./catalog.module.css";
 import { useAppDispatch, useAppSelector } from '../../Consts/Consts';
-import {  getProducts } from '../../store/actions/product.action';
+import { getProducts } from '../../store/actions/product.action';
 import { Link, useSearchParams } from 'react-router-dom';
 import Card from '../../components/Card/Card';
 import { ProductType } from '../../Types/Types';
@@ -14,6 +14,9 @@ const initialFilters = {
 
 const Catalog: FC = () => {
     const dispatch = useAppDispatch();
+
+    const idd = localStorage.getItem('currentuser')
+
     const products = useAppSelector((state) => state.products.products.slice().reverse()) as ProductType[];
 
     const [filters, setFilters] = useState(initialFilters);
@@ -40,8 +43,6 @@ const Catalog: FC = () => {
     const handleFilterChange = (filter: 'ficus' | 'palms' | 'succulents') => {
         setFilters(prevFilters => ({ ...prevFilters, [filter]: !prevFilters[filter] }));
     };
-
-    
 
     return (
         <div className={styles.catalog}>
@@ -79,7 +80,9 @@ const Catalog: FC = () => {
                         </label>
                     </li>
                 </ul>
-                <Link className={styles.addLink} to={'/addProduct'}>Добавить Растение</Link>
+                {idd === '3' && ( // Проверка идентификатора пользователя
+                    <Link className={styles.addLink} to={'/addProduct'}>Добавить Растение</Link>
+                )}
             </aside>
             <div className={styles.catalogList}>
                 {filteredProducts.map((item, index) => (
@@ -91,5 +94,3 @@ const Catalog: FC = () => {
 };
 
 export default Catalog;
-
-

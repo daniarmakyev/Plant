@@ -6,14 +6,6 @@ export interface CardData {
   [key: string]: string | number | undefined;
 }
 
-
-export interface ProductType {
-  image: string;
-  title: string;
-  price: string;
-  category: string;
-}
-
 // ! register
 export interface UserType {
   name: string;
@@ -22,6 +14,7 @@ export interface UserType {
   password: string;
   password_confirm?: string;
   id?: number;
+  cart?:CardData[]
   [key: string]: string | number | undefined | CardData[];
 }
 

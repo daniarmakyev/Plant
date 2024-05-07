@@ -45,7 +45,7 @@ export const getOneProduct = createAsyncThunk(
   "oneProduct/getOneProduct",
   async (id: string | undefined) => {
     try {
-      const { data } = await axios.patch(`${APIPRODUCT}/${id}`);
+      const { data } = await axios.get(`${APIPRODUCT}/${id}`);
       return data;
     } catch (error) {
       console.error(error);
