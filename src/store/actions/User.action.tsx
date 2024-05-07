@@ -28,9 +28,10 @@ export const getUsers = createAsyncThunk("users/getUsers", async () => {
 
 export const getOneUser = createAsyncThunk(
   "users/getOneUser",
-  async (id: string | number) => {
+  async (id: string | number | undefined) => {
     try {
       const { data } = await axios.get(`${API}/${id}`);
+      console.log(data);
       return data;
     } catch (error) {
       console.log(error);
@@ -46,6 +47,19 @@ export const getCurrentUser = createAsyncThunk(
       return data;
     } catch (error) {
       console.log(error);
+    }
+  }
+);
+
+export const updateUser = createAsyncThunk(
+  "users/updateUser",
+  async ({ id, newData }: { id: string | number; newData: UserType }) => {
+    try {
+      const response = await axios.put(`${API}/${id}`, newData);
+      return response.data;
+    } catch (error) {
+      console.error("Error updating user:", error);
+      throw error;
     }
   }
 );
