@@ -8,7 +8,11 @@ import AddProductPage from "../pages/AddProduct/AddProductPage";
 import EditProduct from "../pages/EditProduct/EditProduct";
 import Login from "../pages/auth/Login";
 import Profile from "../pages/Profile/Profile";
+
+import EditProfile from "../pages/Profile/editProfile/EditProfile";
+
 import Cart from "../pages/Cart/Cart";
+
 
 export const router = createBrowserRouter([
   {
@@ -22,7 +26,11 @@ export const router = createBrowserRouter([
       { path: "/addProduct", element: <AddProductPage /> },
       { path: "/editPage/:id", element: <EditProduct /> },
       { path: "/profile", element: <Profile /> },
+
+      { path: "/editProfile", element: <EditProfile /> },
+
       { path: "/cart", element: <Cart /> },
+
     ],
   },
 ]);

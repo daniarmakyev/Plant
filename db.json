@@ -166,16 +166,15 @@
       "id": 1
     },
     {
-      "name": "alisherov",
-      "phone": "0303032",
-      "email": "makers.frontend@gmail.com",
-      "password": "qwertyuio",
-      "password_confirm": "qwertyuio",
-      "cart": [],
-      "id": 2
+      "name": "DaniarMakyev",
+      "phone": "0550650222",
+      "email": "daniarmakyev10@gmail.com",
+      "password": "12345678",
+      "password_confirm": "12345678",
+      "id": 10
     },
     {
-      "name": "Daniar Makyev",
+      "name": "DaniarMakyev",
       "phone": "0550650222",
       "email": "daniarmakyev10@gmail.com",
       "password": "12345678",
