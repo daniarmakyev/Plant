@@ -36,13 +36,6 @@
       "category": "Пальмы"
     },
     {
-      "id": 6,
-      "title": "Сансевьерия",
-      "price": "2000",
-      "image": "https://растения77.рф/wp-content/uploads/2022/10/20230226_125633-scaled.jpg",
-      "category": "Суккуленты"
-    },
-    {
       "id": 7,
       "title": "Хамедорея",
       "price": "3200",
@@ -169,7 +162,8 @@
       "email": "beka@gmail.com",
       "password": "12345678",
       "password_confirm": "12345678",
-      "id": 4
+      "cart": [],
+      "id": 1
     },
     {
       "name": "alisherov",
@@ -177,23 +171,8 @@
       "email": "makers.frontend@gmail.com",
       "password": "qwertyuio",
       "password_confirm": "qwertyuio",
-      "id": 7
-    },
-    {
-      "name": "sdcsdc",
-      "phone": "dscsdcsd",
-      "email": "sdcsdcs",
-      "password": "sdcsdcs",
-      "password_confirm": "sdcsdcs",
-      "id": 8
-    },
-    {
-      "name": "ewdwedw123456789",
-      "phone": "wdwed",
-      "email": "wdwedwedwed",
-      "password": "qwertyuio",
-      "password_confirm": "qwertyuio",
-      "id": 9
+      "cart": [],
+      "id": 2
     },
     {
       "name": "Daniar Makyev",
@@ -201,7 +180,23 @@
       "email": "daniarmakyev10@gmail.com",
       "password": "12345678",
       "password_confirm": "12345678",
-      "id": 10
+      "cart": [
+        {
+          "id": 3,
+          "title": "Агава",
+          "price": "2990",
+          "image": "https://flowers.ua/images/Flowers/articles/253-img-1.jpg",
+          "category": "Суккуленты"
+        },
+        {
+          "id": 6,
+          "title": "Сансевьерия",
+          "price": "2000",
+          "image": "https://растения77.рф/wp-content/uploads/2022/10/20230226_125633-scaled.jpg",
+          "category": "Суккуленты"
+        }
+      ],
+      "id": 3
     }
   ]
 }

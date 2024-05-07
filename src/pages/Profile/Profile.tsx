@@ -22,8 +22,7 @@ const Profile = () => {
 
         dispatch(getOneUser(Number(idLokal))).then((data)=>{
             res = data.payload
-            console.log(res);
-            
+            console.log(res);       
         })
 
     }, []);
