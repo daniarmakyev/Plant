@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 25px;
+  background-size: cover;
 }
 
 .homeTop h2 {
@@ -42,6 +43,26 @@
   border-radius: 10px;
 }
 
+@media screen and (max-width:800px){
+
+  .homeTop {
+    background-position: -400px 150px;
+  }
+
+  .homeTop h2 {
+    margin-right: 10px;
+  }
+
+  .homeTop p {
+    margin-right: 10px;
+  }
+
+  .homeTop a {
+    margin-right: 10px;
+  }
+
+}
+
 /*--------------------------home middle----------------------- */
 
 .homeMiddle {
@@ -62,6 +83,13 @@
   font-weight: 400;
   line-height: 21px;
   margin-top: 15px;
+}
+
+@media screen and (max-width:590px){
+
+  .homeMiddle {
+    flex-wrap: wrap;
+  }
 }
 
 /*--------------------------home bottom----------------------- */
