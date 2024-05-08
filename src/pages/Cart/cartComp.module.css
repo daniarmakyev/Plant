@@ -1,0 +1,20 @@
+.card {
+    display: flex;
+    gap: 30px;
+}
+
+.card img {
+    width: 80px;
+    height: 100px;
+}
+
+@media screen and (max-width:430px){
+    .card {
+        max-width: 300px;
+    }
+    .delete {
+        position: absolute;
+        right: 0;
+        top: 50px;
+    }
+}

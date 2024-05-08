@@ -15,7 +15,7 @@ const Header: FC = () => {
           plant
         </NavLink>
         <div className={styles.nav}>
-          <NavLink to={"/"}>Каталог</NavLink>
+          <NavLink to={"/catalog"}>Каталог</NavLink>
 
           <NavLink to={"/"}>Советы по уходу</NavLink>
 

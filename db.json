@@ -8,20 +8,6 @@
       "category": "Фикусы"
     },
     {
-      "id": 2,
-      "title": "Пальма",
-      "price": "3000",
-      "image": "https://gardengrove.ru/upload/resize_cache/iblock/24a/376_376_1/areka_khrizalidokarpus_dipsis_zheltovatyy_4chlubu83.jpg",
-      "category": "Пальмы"
-    },
-    {
-      "id": 3,
-      "title": "Агава",
-      "price": "2990",
-      "image": "https://flowers.ua/images/Flowers/articles/253-img-1.jpg",
-      "category": "Суккуленты"
-    },
-    {
       "id": 4,
       "title": "Антуриум",
       "price": "1500",
@@ -134,25 +120,11 @@
       "category": "Пальмы"
     },
     {
-      "id": 21,
-      "title": "Драцена",
-      "price": "2500",
-      "image": "https://geoglass.ru/wp-content/uploads/2021/03/florarium-dratsena.jpg",
-      "category": "Фикусы"
-    },
-    {
       "title": "Хамерос",
       "price": "52000",
       "image": "https://leplants.ru/static/cache/c3/10/c310eb71be18b1f4a3195b84337211dd.jpg",
       "category": "Пальмы",
       "id": 22
-    },
-    {
-      "title": "Пальма",
-      "price": "3000",
-      "image": "https://artplants.ru/upload/123/8.jpg",
-      "category": "Пальмы",
-      "id": 23
     }
   ],
   "users": [
@@ -185,6 +157,13 @@
           "price": "2000",
           "image": "https://растения77.рф/wp-content/uploads/2022/10/20230226_125633-scaled.jpg",
           "category": "Суккуленты"
+        },
+        {
+          "id": 8,
+          "title": "Кокосовая Пальма",
+          "price": "4000",
+          "image": "https://geoglass.ru/wp-content/uploads/2021/08/rastenie-kokos-kopiya.jpg",
+          "category": "Пальмы"
         }
       ],
       "id": 3

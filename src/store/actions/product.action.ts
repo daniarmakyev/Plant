@@ -7,6 +7,7 @@ import {
 import axios from "axios";
 import { RootState } from "../store";
 import { ProductType } from "../../Types/Types";
+import { useAppDispatch } from "../../Consts/Consts";
 
 export const APIPRODUCT = "http://localhost:8000/products";
 
@@ -67,6 +68,8 @@ export const editProduct = createAsyncThunk(
     }
   }
 );
+
+
 
 export const deleteProductFromApi = createAsyncThunk(
   "oneProduct/deleteProduct",
