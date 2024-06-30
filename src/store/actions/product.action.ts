@@ -20,10 +20,11 @@ export interface Product {
 
 export const getProducts = createAsyncThunk(
   "products/getProducts",
-  async () => {
+  async (page?: number) => { 
     try {
-      const { data } = await axios.get<ProductType[]>(APIPRODUCT);
-      return data;
+      const response = await axios.get<{ data: ProductType[] }>(`${APIPRODUCT}?_page=${page || 1}`);
+      const data = response.data; 
+      return data
     } catch (error) {
       console.error("Error fetching products:", error);
       throw error;

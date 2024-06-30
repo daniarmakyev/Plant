@@ -13,7 +13,6 @@ import EditProfile from "../pages/Profile/editProfile/EditProfile";
 
 import Cart from "../pages/Cart/Cart";
 
-
 export const router = createBrowserRouter([
   {
     id: "root",
@@ -30,7 +29,6 @@ export const router = createBrowserRouter([
       { path: "/editProfile", element: <EditProfile /> },
 
       { path: "/cart", element: <Cart /> },
-
     ],
   },
 ]);

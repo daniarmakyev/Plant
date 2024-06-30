@@ -14,7 +14,7 @@ export interface UserType {
   password: string;
   password_confirm?: string;
   id?: number;
-  cart?:CardData[]
+  cart?: CardData[];
   [key: string]: string | number | undefined | CardData[];
 }
 
@@ -25,11 +25,10 @@ export type LoginType = {
   [key: string]: string;
 };
 
-  export interface ProductType {
-    image: string;
-    title: string;
-    price:string;
-    category:string;
-    [key: string]: string | number | undefined;
-  }
-
+export interface ProductType {
+  image: string;
+  title: string;
+  price: string;
+  category: string;
+  [key: string]: string | number | undefined;
+}

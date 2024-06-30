@@ -51,7 +51,6 @@ export const getCurrentUser = createAsyncThunk(
   }
 );
 
-
 export const updateUser = createAsyncThunk(
   "users/updateUser",
   async ({ id, newData }: { id: string | number; newData: UserType }) => {
@@ -75,4 +74,3 @@ export const addCart = createAsyncThunk(
     }
   }
 );
-
