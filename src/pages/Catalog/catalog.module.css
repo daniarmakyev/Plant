@@ -39,6 +39,14 @@
     padding: 10px;
 }
 
+.paginate {
+    display: flex;
+    gap: 10px;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media screen and (max-width:590px){
 
     .catalog {
