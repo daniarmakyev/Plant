@@ -34,7 +34,6 @@ const Card: FC<{ card: ProductType }> = ({ card }) => {
     dispatch(getOneProduct(id.toString()));
     dispatch(getOneUser(idd!));
     setOneProduct(oneProductt);
-    console.log(oneProduct);
 
     if (oneProduct !== null && idd && oneUser !== undefined) {
       const filteredCart = (oneUser!.cart as ProductType[]).filter(
