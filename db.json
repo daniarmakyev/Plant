@@ -129,22 +129,22 @@
   ],
   "users": [
     {
-      "name": "beka",
-      "phone": "+996 705 190 750",
-      "email": "beka@gmail.com",
+      "name": "Don",
+      "phone": "+222 222 222 222",
+      "email": "Don@gmail.com",
       "password": "12345678",
       "password_confirm": "12345678",
       "cart": [],
       "id": "1"
     },
     {
-      "name": "DaniarMakyev",
-      "phone": "0550650222",
-      "email": "daniarmakyev10@gmail.com",
+      "id": "424f",
+      "name": "John Doe",
+      "phone": "03333333333",
+      "email": "johndoe@gmail.com",
       "password": "12345678",
       "password_confirm": "12345678",
-      "cart": [],
-      "id": "3"
+      "cart": []
     }
   ]
 }

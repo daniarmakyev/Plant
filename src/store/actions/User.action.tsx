@@ -28,7 +28,7 @@ export const getUsers = createAsyncThunk("users/getUsers", async () => {
 
 export const getOneUser = createAsyncThunk(
   "users/getOneUser",
-  async (id: string | number | undefined) => {
+  async (id: string | number ) => {
     try {
       const { data } = await axios.get(`${API}/${id}`);
       console.log(data);

@@ -61,7 +61,7 @@ const Catalog: FC = () => {
 
   const handlePageClick = (data: { selected: number }) => {
     setCurrentPage(data.selected);
-    window.scrollTo({ top: 0, behavior: "instant" });
+    window.scrollTo({ top: 0, behavior: "auto" });
   };
 
   return (

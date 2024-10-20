@@ -19,29 +19,9 @@ const Header: FC = () => {
 
           <NavLink to={"/"}>Советы по уходу</NavLink>
 
-          <NavLink to={"/"}>Оплата и доставка</NavLink>
-
-          <NavLink to={"/"}>Контакты</NavLink>
         </div>
         <div className={styles.svgBlock}>
-          <Link to={"/"}>
-            <svg
-              width="27.000000"
-              height="27.000000"
-              viewBox="0 0 27 27"
-              fill="none"
-              xmlnsXlink="http://www.w3.org/2000/svg"
-            >
-              <defs />
-              <path
-                id="Поиск на сайте"
-                d="M10.27 3.05e-5C15.94 3.05e-5 20.54 4.59 20.54 10.27C20.54 15.94 15.94 20.54 10.27 20.54C4.59 20.54 0 15.94 0 10.27C0 4.6 4.6 0 10.27 0L10.27 0L10.27 3.05e-5ZM10.27 18.16C14.63 18.16 18.16 14.63 18.16 10.27C18.16 5.91 14.63 2.37 10.27 2.37C5.91 2.37 2.37 5.91 2.37 10.27C2.38 14.63 5.91 18.16 10.27 18.16L10.27 18.16L10.27 18.16ZM25.31 27L15.67 17.35L17.35 15.67L27 25.31L25.31 27Z"
-                fill="#000000"
-                fillOpacity="1.000000"
-                fillRule="nonzero"
-              />
-            </svg>
-          </Link>
+   
 
           {idd ? <Link to={'/profile'}><svg width="32px" height="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M14 19.2857L15.8 21L20 17M4 21C4 17.134 7.13401 14 11 14C12.4872 14 13.8662 14.4638 15 15.2547M15 7C15 9.20914 13.2091 11 11 11C8.79086 11 7 9.20914 7 7C7 4.79086 8.79086 3 11 3C13.2091 3 15 4.79086 15 7Z" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

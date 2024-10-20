@@ -12,19 +12,14 @@ const Profile = () => {
     password: "",
     phone: "",
   });
+  const { oneUser } = useAppSelector((state) => state.users);
 
   const idLokal = localStorage.getItem("currentUser");
 
   const dispatch = useAppDispatch();
-
+  
   useEffect(() => {
-    let res: any = null;
-
-    dispatch(getOneUser(Number(idLokal))).then((data) => {
-      res = data.payload;
-      setUser(res);
-      // console.log(res, "res");
-    });
+    dispatch(getOneUser(idLokal!));
   }, []);
 
   console.log(user, "user");
@@ -35,18 +30,19 @@ const Profile = () => {
     
 
   return (
-    <div className={styles.profileContainer}>
+   <>
+    {oneUser &&  <div className={styles.profileContainer}>
       <h1>Profile Page</h1>
       <div className={styles.profileImage}>
         <img src={profileImage} alt="Profile" />
       </div>
       <div className={styles.profileInfo}>
-        <h4>Name: {user.name}</h4>
+        <h4>Name: {oneUser.name}</h4>
         <p>
-          <span>Email:</span> {user.email}
+          <span>Email:</span> {oneUser.email}
         </p>
         <p>
-          <span>Phone:</span> {user.phone}
+          <span>Phone:</span> {oneUser.phone}
         </p>
       </div>
       <div className={styles.buttonContainer}>
@@ -54,7 +50,8 @@ const Profile = () => {
           <button>Изменить</button>
         </Link>
       </div>
-    </div>
+    </div>}
+   </>
   );
 };
 
