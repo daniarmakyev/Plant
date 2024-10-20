@@ -1,12 +1,6 @@
 {
   "products": [
-    {
-      "id": "1",
-      "title": "Стрелиция",
-      "price": "2300",
-      "image": "https://palmcentre.co.uk/wp-content/uploads/2023/08/F_16395_603c118c1d3fd.jpg",
-      "category": "Фикусы"
-    },
+
     {
       "id": "4",
       "title": "Антуриум",

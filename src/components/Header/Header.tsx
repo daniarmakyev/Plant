@@ -16,9 +16,6 @@ const Header: FC = () => {
         </NavLink>
         <div className={styles.nav}>
           <NavLink to={"/catalog"}>Каталог</NavLink>
-
-          <NavLink to={"/"}>Советы по уходу</NavLink>
-
         </div>
         <div className={styles.svgBlock}>
    
